@@ -12,5 +12,5 @@ Your account online lets you make public/remote repos for your work. However, yo
 The default installation preferences are mostly fine, **except** that you should deviate and follow this selection for handling line endings:
 
 <p align="center">
-<img width="200" src="https://github.com/lwilgrant/enviro_prog_git/blob/main/install_option.png" />
+<img width="400" src="https://github.com/lwilgrant/enviro_prog_git/blob/main/install_option.png" />
 </p>
