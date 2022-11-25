@@ -21,3 +21,12 @@ Open **Git Bash** and type:
 git config --global user.name <your name>
 git config --global user.email <your_email@something>
 ```
+
+### Create a secure connection between Git and your local machine
+Generate an SSH key. This is unique to your machine/GitHub connection. It let's you connect and authenticate to the remote server on GitHub without having to give usernames/passwords.
+
+You might already have keys, which should be in a hidden ".ssh" folder somewhere like "C:/Users/yourname/.ssh"
+
+But you probably don't. So type this with your **GitHub email address** and ignore the name changes and password prompts by pressing the **Enter** key:
+```
+ssh-keygen -t rsa -b 4096 -C <your_github_email@something>
