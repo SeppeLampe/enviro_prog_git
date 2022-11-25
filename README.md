@@ -33,5 +33,5 @@ ssh-keygen -t rsa -b 4096 -C <your_github_email@something>
 ```
 This produces a public/private key pair. The public key will have a ".pub" extension. Find your public key, open it and paste its contents in your GitHub account settings page under "SSH and GPG keys; New SSH key":
 <p align="center">
-<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/install_option.png" />
+<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/keys.PNG" />
 </p>
