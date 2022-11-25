@@ -76,7 +76,7 @@ Note that the address used above can be found in your remote repo here:
 <img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/connecting.PNG" />
 </p>
 
-### Exercise
+### Exercise 1: Push
 
 Ouuuuuuu weeee!
 <p align="center">
@@ -111,3 +111,46 @@ Now check your commit history to have an overview of the acitivty in your remote
 <p align="center">
 <img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/commits.PNG" />
 </p>
+
+You can also check your commit history in Git Bash:
+```
+git log
+```
+
+### Exercise 2: Pull
+
+Imagine your group's Mr. Manager has already pushed a bunch of new things to your remote repo, but you have been quietly delegating your time to the Surface Water Hydrology report instead of working on your coding project, which might not be the best strategy for organizing your efforts... You're now in a pickle; your local repo is behind the remote.
+
+No worries! You can easily catch up to Mr. Manager in your local repo by "**pulling**" the changes on the remote:
+```
+git pull origin main
+```
+
+### Exercise 3: Revert
+
+But what if your Mr. Manager srcrewed up? He/she pushed some garbage that broke the matrix. Yet, **conveniently**, Mr. Manager was doing frequent commits of his/her work, thereby allowing you to track their stupid changes.
+
+Again, in Git bash, you can view the labels or ids for each commit in your commit history with:
+```
+git log
+```
+
+For one of my projects, labels look like the following (circled in red):
+<p align="center">
+<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/revert.PNG" />
+</p>
+
+Imagine one of your group members screwed up. **After you have all pulled changes from the remote, organize for one person** in your group to revert a commit.
+
+If you want to revert the last commit, this is simple:
+```
+git revert HEAD
+```
+
+If you want to revert an earlier commit, use its id:
+```
+git revert <commit_id>
+```
+
+# That's everything! Got Git it!
+
