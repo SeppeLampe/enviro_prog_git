@@ -135,7 +135,7 @@ Again, in Git bash, you can view the labels or ids for each commit in your commi
 git log
 ```
 
-For one of my projects, labels look like the following (circled in red):
+For one of my projects, commit ids look like the following (circled in red):
 <p align="center">
 <img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/revert.PNG" />
 </p>
