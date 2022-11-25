@@ -23,15 +23,47 @@ git config --global user.email <your_email@something>
 ```
 
 ### Create a secure connection between Git and your local machine
-Generate an SSH key. This is unique to your machine/GitHub connection. It let's you connect and authenticate to the remote server on GitHub without having to give usernames/passwords.
+Generate an SSH key. This is unique to your machine/GitHub connection. It let's you connect and authenticate your local machine to the remote server on GitHub without having to give usernames/passwords.
 
 You might already have keys, which should be in a hidden ".ssh" folder somewhere like "C:/Users/yourname/.ssh"
 
-But you probably don't. So type this with your **GitHub email address** and ignore the name changes and password prompts by pressing the **Enter** key:
+But you probably don't. So, open Git Bash and type this with your **GitHub email address** and ignore the name changes and password prompts by pressing the **Enter** key:
 ```
 ssh-keygen -t rsa -b 4096 -C <your_github_email@something>
 ```
+
 This produces a public/private key pair. The public key will have a ".pub" extension. Find your public key, open it and paste its contents in your GitHub account settings page under "SSH and GPG keys; New SSH key":
 <p align="center">
 <img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/keys.PNG" />
 </p>
+
+Then, in Git Bash, establish this connection (type yes/press enter if it warns you):
+```
+ssh -T git @github.com
+```
+
+You have now created a connection between your local machine and your GitHub account. Now we're ready to start using Git.
+
+## Using Git
+
+### Create a remote repo
+In order to practice with Git, you will need a remote repo for platforming work on GitHub. Select your profile dropdown menu and "Your repositories", then create a repository. Don't worry about license and readme files.
+
+### Create a local repo
+Go to the directory on your local machine where your projects are, i.e. "C:/Users/yourname/repos/", and make a repo with the same name as the remote above.
+
+Initialize your local repo by opening Git Bash in its folder (right click some blank space in your file explorer in the directory of your local repo) and typing:
+```
+git init
+```
+
+This tells Git that your local folder is a Git repository. It will produce a hidden ".git" folder that tracks stuff. You only need to do this once per repo.
+
+As of now, we have made an SSH connection between your local machine and your GitHub account. We also made remote and local repos. However, Git doesn't yet know that the local and remote repos are lovers that build beautiful code babies. So you need to tell Git this by typing the following and Git Bash (opened in your local repo):
+```
+git remote add origin git@github.com:<username/yourrepo>
+```
+
+
+
+
