@@ -85,19 +85,19 @@ Ouuuuuuu weeee!
 
 We're so close! We have GitHub accounts, Git Bash, **intimately** connected local and remote repos. Now we need to make some dummy code and push it from our local to remote repos. 
 
-As a group exercise, I want every group member to open up a blank text file called "myfavprof.txt" using MS notebook or your python editor. This is of course your code that you hope to back up on the remote, so the file should be in your local repo. Simply type the first name of the best professor in IUPWARE. For one person at a time, I want each group member to push their not-so-secret code containing their favorite professor to the remote. After doing this, I want you to check the committ history of your remote repo to see how this process is incredibly valuable to collaborative coding.
+As a group exercise, I want every group member to open up a blank text file called "myfavprof.txt" using MS notebook or your python editor. This is of course your code that you hope to back up on the remote, so the file should be in your local repo. Simply type the first name of the best professor in IUPWARE. For one person at a time, I want each group member to push their not-so-secret code containing their favorite professor to the remote. After doing this, I want you to check the commit history of your remote repo to see how this process is incredibly valuable to collaborative coding.
 
 Checking the status of your repo:
 ```
 git status
 ```
 
-Adding your code to the staging area:
+Add your code to the staging area:
 ```
 git add myfavprof.txt
 ```
 
-Committing the code, which confirms the state of your files in the local repo and preps them for moving to the remote. Here you add some comment in quotation marks that should be brief but descriptive of what you did to the code:
+Commit the code, which confirms the state of your files in the local repo and preps them for moving to the remote. Here you add some comment in quotation marks that should be brief but descriptive of what you did to the code:
 ```
 git commit -m "My favorite professor updated in the very public code"
 ```
