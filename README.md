@@ -64,6 +64,9 @@ As of now, we have made an SSH connection between your local machine and your Gi
 git remote add origin git@github.com:<username/yourrepo>
 ```
 
-
+Note that the address used above can be found in your remote repo here:
+<p align="center">
+<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/connection.PNG" />
+</p>
 
 
