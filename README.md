@@ -1,7 +1,7 @@
 # Git in Environmental Programming
 This is a quick introduction to Git for IUPWARE programmers. 
 
-**For this exercise, kindly get in the groups you formed for your projects. Only one person needs to make the remote repo for your group's project. You can call this person "Mr. Manager" (ladies too). Follow along as a group and make sure that everyone does all the rest of the stuff**
+**For this exercise, kindly get in the groups you formed for your projects. Only one person needs to make the remote repo for your group's project. You can call this person "Mr. Manager" (ladies too). Follow along as a group and make sure that everyone does the rest of the tutorial so you are all connected to your group's remmote.**
 
 ## Setting up Git
 
@@ -107,3 +107,7 @@ Finally, push the code to your remote! This tells Git to push the committed chan
 git push origin main
 ```
 
+Now check your commit history to have an overview of the acitivty in your remote:
+<p align="center">
+<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/commits.PNG" />
+</p>
