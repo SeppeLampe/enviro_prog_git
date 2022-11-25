@@ -66,7 +66,7 @@ This tells Git that your local folder is a Git repository. It will produce a hid
 
 ### Connect repos
 
-As of now, we have made an SSH connection between your local machine and your GitHub account. We also made remote and local repos. However, Git doesn't yet know that the local and remote repos are lovers that build beautiful code babies. So you need to tell Git this by typing the following and Git Bash (opened in your local repo):
+As of now, we have made an SSH connection between your local machine and your GitHub account. We also made remote and local repos. However, Git doesn't yet know that the local and remote repos are lovers that build beautiful code babies. So you need to tell Git this by typing the following in Git Bash (opened in your local repo):
 ```
 git remote add origin git@github.com:<username/yourrepo>
 ```
