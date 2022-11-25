@@ -1,6 +1,8 @@
 # Git in Environmental Programming
 This is a quick introduction to Git for IUPWARE programmers. 
 
+**For this exercise, kindly get in the groups you formed for your projects. Only one person needs to make the remote repo for your group's project. You can call this person "Mr. Manager" (ladies too). Follow along as a group and make sure that everyone does all the rest of the stuff**
+
 ## Setting up Git
 
 ### Make your account
@@ -47,7 +49,10 @@ You have now created a connection between your local machine and your GitHub acc
 ## Using Git
 
 ### Create a remote repo
-In order to practice with Git, you will need a remote repo for platforming work on GitHub. Select your profile dropdown menu and "Your repositories", then create a repository. Don't worry about license and readme files.
+In order to practice with Git, you will need a remote repo for platforming work on GitHub. **Mr. Manager**, select your profile dropdown menu and "Your repositories", then create a repository. Don't worry about license and readme files. Then, head to your Settings and invite your group members with their GitHub usernames/emails under "Collaborators":
+<p align="center">
+<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/collabs.PNG" />
+</p>
 
 ### Create a local repo
 Go to the directory on your local machine where your projects are, i.e. "C:/Users/yourname/repos/", and make a repo with the same name as the remote above.
@@ -69,4 +74,4 @@ Note that the address used above can be found in your remote repo here:
 <img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/connecting.PNG" />
 </p>
 
-
+Oh boy, we're so close. We have GitHub accounts, Git Bash, and intimately connected local and remote repos. Now we need to make some dummy code and push it from our local computers to our accounts. First, though
