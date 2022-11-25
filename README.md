@@ -13,4 +13,5 @@ The default installation preferences are mostly fine, **except** that you should
 
 <p align="center">
 ![this step](https://github.com/lwilgrant/enviro_prog_git/blob/main/install_option.png)
+<img width="200" src="[http://material-bread.org/logo-shadow.svg](https://github.com/lwilgrant/enviro_prog_git/blob/main/install_option.png)" alt="Material Bread logo">
 </p>
