@@ -14,3 +14,10 @@ The default installation preferences are mostly fine, **except** that you should
 <p align="center">
 <img width="400" src="https://github.com/lwilgrant/enviro_prog_git/blob/main/install_option.png" />
 </p>
+
+### Configure Git
+Open **Git Bash** and type:
+```
+git config --global user.name <your name>
+git config --global user.email <your_email@something>
+```
