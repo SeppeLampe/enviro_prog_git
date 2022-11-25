@@ -1,7 +1,7 @@
 # Git in Environmental Programming
 This is a quick introduction to Git for IUPWARE programmers. 
 
-**For this exercise, kindly get in the groups you formed for your projects. Only one person needs to make the remote repo for your group's project. You can call this person "Mr. Manager" (ladies too). Follow along as a group and make sure that everyone does the rest of the tutorial so you are all connected to your group's remmote.**
+**For this exercise, kindly get in the groups you formed for your projects. Only one person needs to make the remote repo for your group's project. You can call this person "Mr. Manager" (ladies too). Follow along as a group and make sure that everyone does the rest of the tutorial so you are all connected to your group's remote.**
 
 ## Setting up Git
 
