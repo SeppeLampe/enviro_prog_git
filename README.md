@@ -30,3 +30,8 @@ You might already have keys, which should be in a hidden ".ssh" folder somewhere
 But you probably don't. So type this with your **GitHub email address** and ignore the name changes and password prompts by pressing the **Enter** key:
 ```
 ssh-keygen -t rsa -b 4096 -C <your_github_email@something>
+```
+This produces a public/private key pair. The public key will have a ".pub" extension. Find your public key, open it and paste its contents in your GitHub account settings page under "SSH and GPG keys; New SSH key":
+<p align="center">
+<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/install_option.png" />
+</p>
