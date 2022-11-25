@@ -66,7 +66,7 @@ git remote add origin git@github.com:<username/yourrepo>
 
 Note that the address used above can be found in your remote repo here:
 <p align="center">
-<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/connection.PNG" />
+<img src="https://github.com/lwilgrant/enviro_prog_git/blob/main/connecting.PNG" />
 </p>
 
 
