@@ -41,7 +41,7 @@ This produces a public/private key pair. The public key will have a ".pub" exten
 
 Then, in Git Bash, establish this connection (type yes/press enter if it warns you):
 ```
-ssh -T git @github.com
+ssh -T git@github.com
 ```
 
 You have now created a connection between your local machine and your GitHub account. Now we're ready to start using Git.
